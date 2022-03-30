@@ -176,4 +176,7 @@ bibtex_default_style = 'unsrt'
 epub_exclude_files = ['search.html']
 
 import pip
-failed = pip.main(["install", "sphinxcontrib.bibtex"])
+python3 -m pip --version
+
+python3 -m ensurepip --default-pip
+python3 -m pip install sphinxcontrib-bibtex
