@@ -16,9 +16,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import pip
-pip install sphinxcontrib-bibtex
-
 # -- Project information -----------------------------------------------------
 
 project = 'MultiGrid Radiation'
