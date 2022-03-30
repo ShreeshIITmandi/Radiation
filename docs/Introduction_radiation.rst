@@ -2,7 +2,7 @@ Introduction to radiation
 ==========================
 - Radiation heat transfer are commonly used to describe the science of the heat transfer caused by electromagnetic waves. Thermal radiation transfers the energy through electromagnetic waves so energy is transferred even when there is no medium.
 - But there are some gases that actively participate in attenuating/augmenting of energy incident on it, such gases are called participating medium for example :math:`H_2O` and :math:`CO_2`.
-- The intensity i.e, energy per unit steridian angle when passes through the participating medium. It experiences the following phenomena as shown in the figure below :numref:`radiation`.
+- The intensity i.e, energy per unit steridian angle when passes through the participating medium. It experiences the following phenomena as shown in the figure below.
 
 Radiation phenoemena
 ---------------------
