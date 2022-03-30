@@ -26,7 +26,7 @@ The pure radiation test cases are proposed by :cite:p:`gerardin2012p1`.
    :alt: alternate text
    :align: center
 
-The radiative heat flux is evaluated at the bottom wall for the validation.
+The radiative heat flux is evaluated at the bottom wall for the validation
 Property of the gas is taken to be 
 
 :math:`\kappa=1 m^{-1}`
@@ -50,12 +50,12 @@ Numerical validation can be done agianst the analytical solution (Ten et Hsu) an
    :alt: alternate text
    :align: center
    
-- This case enables to test for corner effects if it exists.
-- This test case helps in analysing complex geometry.
-- Radiative heat flux and radiative source term is evaluated for validation.
-- Black wall is considered.  (ϵ=1)
-- Medium is considered to be only absorbing .(⍵=0)
-- Radiative heat flux is evaluated on a-a axis of the wall.
+- This case enables to test for corner effects if it exists
+- This test case helps in analysing complex geometry
+- Radiative heat flux and radiative source term is evaluated for validation
+- Black wall is considered (ϵ=1)
+- Medium is considered to be only absorbing (⍵=0)
+- Radiative heat flux is evaluated on a-a axis of the wall
 
 Validation is done against for the property of gas medium  𝜿=2  and  𝜿=10 
 :math:`m^{-1}`
@@ -76,12 +76,12 @@ Validation is done against for the property of gas medium  𝜿=2  and  𝜿=10
    :alt: alternate text
    :align: center
 
-- Homogeneous absorbing medium is considered.(⍵=0)
-- The radiative heat flux is evaluated at the wall for validation.
+- Homogeneous absorbing medium is considered (⍵=0)
+- The radiative heat flux is evaluated at the wall for validation
 - Wall is considered to be black (ϵ=1)
-- The radiative heat flux and radiative source term is evaluated for validation.
+- The radiative heat flux and radiative source term is evaluated for validation
 
-Validation is done against for the property of gas medium  𝜿=1  and  𝜿=10 
+Validation is done against for the property of gas medium 𝜿=1 and 𝜿=10 
 :math:`m^{-1}`
 
 .. image:: Result3.png
@@ -93,7 +93,7 @@ Validation is done against for the property of gas medium  𝜿=1  and  𝜿=10
 
 Steps to set-up the problem
 ---------------------------
-- Discretise the P1 governing equation for the geometry. This may be bit complicated for complex gemoetry.
+- Discretise the P1 governing equation for the geometry. This may be bit complicated for complex geometry.
 - Apply boundary conditions and convert it into sparse matrix using AMGCL backend function.
 - Setup the multi-grid solver using suitable smoother, preconditioner and transfer operators available.
 - Run the case for the solution and extract suitable results from the solution.
