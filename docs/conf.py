@@ -16,6 +16,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import pip
+pip install sphinxcontrib-bibtex
 
 # -- Project information -----------------------------------------------------
 
@@ -175,5 +177,3 @@ bibtex_default_style = 'unsrt'
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
-import pip
-pip install sphinxcontrib.bibtex
