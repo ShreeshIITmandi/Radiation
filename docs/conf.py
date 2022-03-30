@@ -176,4 +176,4 @@ bibtex_default_style = 'unsrt'
 epub_exclude_files = ['search.html']
 
 import pip
-pip install sphinxcontrib-bibtex
+pip install sphinxcontrib.bibtex
