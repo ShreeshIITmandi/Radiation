@@ -1,7 +1,7 @@
-Radiation with AMGCL solver
+P1 Radiation
 ===========================
 
-Basically in this module P1 radiation is solved using multi-grid approach.
+This module is to solve P1 radiation using multi-grid approach.
 
 Contents
 --------
