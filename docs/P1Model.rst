@@ -103,7 +103,7 @@ The governing equation for P1 when discretised using central difference gives th
 
 Showing discretisation only on one boundary 
 
-.. math::.. math:: G(i,j,k)\left(1-\frac{2}{\Delta x}\frac{2-\epsilon}{\epsilon}\frac{2}{3-A_1\omega}\right)+\left(\frac{2}{\Delta x}\frac{2-\epsilon}{\epsilon}\frac{2}{3-A_1\omega}\right) G(i-1,j,k)=4\sigma T^4_w
+.. math:: G(i,j,k)\left(1-\frac{2}{\Delta x}\frac{2-\epsilon}{\epsilon}\frac{2}{3-A_1\omega}\right)+\left(\frac{2}{\Delta x}\frac{2-\epsilon}{\epsilon}\frac{2}{3-A_1\omega}\right) G(i-1,j,k)=4\sigma T^4_w
 
 So the above discretisation will lead to formulation of 
 
