@@ -174,9 +174,3 @@ bibtex_default_style = 'unsrt'
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-import pip
-python3 -m pip --version
-
-python3 -m ensurepip --default-pip
-
