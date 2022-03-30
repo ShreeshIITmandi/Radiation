@@ -179,4 +179,4 @@ import pip
 python3 -m pip --version
 
 python3 -m ensurepip --default-pip
-pip install sphinxcontrib-bibtex
+
