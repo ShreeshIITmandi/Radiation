@@ -98,6 +98,25 @@ Steps to set-up the problem
 - Setup the multi-grid solver using suitable smoother, preconditioner and transfer operators available.
 - Run the case for the solution and extract suitable results from the solution.
 
+This multi grid steps and algorithm availbale in AMGCL solver as as shoen table
+
+.. list-table::
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Steps in Multi-grid
+     - Present development
+     - AMGCL
+   * - Coarsening/Interpolation strategy
+     - RugeStuben algorithm
+     - RugeStuben, point-wise aggregation, plain aggregation, smooth aggregation
+   * - Relaxtion strategy
+     - damped jacobi (mpi)
+     - Chebychev, damped jacobi,ilu, gauss siedel
+   * - Smoothening Strategy
+     - BiCGStab (CSR format), CG (CSR format)
+     - BiCGStab,CG, gmres,idrs,skylineLU,Richardon
+
 
 
 
